@@ -2,11 +2,21 @@ header {
   border-bottom: 1px solid #f9f7fe;
   padding: 0 0 30px 0;
 }
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
 body {
   background-color: white;
   font-family: "Roboto" sans-serif;
 }
-.weather-app {
+.weather-app-city {
   display: block;
   background: white;
   font-size: 38px;
@@ -30,4 +40,10 @@ body {
   margin-left: 5px;
   border-radius: 6px;
   color: white;
+}
+.weather-app-details {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
 }
