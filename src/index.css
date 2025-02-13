@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  font-family: "Roboto" sans-serif;
+}
+.weather-app {
+  display: block;
+  background: white;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  unicode-bidi: isolate;
+}
