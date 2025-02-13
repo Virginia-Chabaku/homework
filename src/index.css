@@ -1,3 +1,7 @@
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
 body {
   background-color: white;
   font-family: "Roboto" sans-serif;
@@ -9,4 +13,21 @@ body {
   font-weight: 700;
   line-height: 48px;
   unicode-bidi: isolate;
+}
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+.search-form-button {
+  background: #885df1;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
 }
