@@ -47,3 +47,18 @@ body {
   line-height: 24px;
   font-weight: 500;
 }
+.weather-app-temperature-container {
+  display: flex;
+}
+div {
+  unicode-bidi: isolate;
+}
+.weather-app-temperature {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+.weather-app-unit {
+  margin-top: 6px;
+  font-size: 28px;
+}
